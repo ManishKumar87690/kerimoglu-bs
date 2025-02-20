@@ -1,0 +1,120 @@
+:root {
+    --blue: #1F6FA9;
+    --white: #fff;
+    --black-04000E: #04000E;
+    --black-04000E: #000;
+    --black-333: #333;
+    --rgb-black: rgba(4, 0, 14, 0.70);
+    --green: #7AC144;
+    --gray-F1F1F1: #F1F1F1;
+
+    /* font size */
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-48: 48px;
+    --fs-60: 60px;
+    --fs-124: 124px;
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.text-black-04000E {
+    color: var(--black-04000E);
+}
+
+.text-black-333 {
+    color: var(--black-333);
+}
+
+.text-black-000 {
+    color: var(--black-000);
+}
+
+.text-black-rgb {
+    color: var(--rgb-black);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.bg-gray-F1F1F1 {
+    background-color: var(--gray-F1F1F1);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-black-04000E {
+    background-color: var(--black-04000E);
+}
+
+/* font size */
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-60 {
+    font-size: var(--fs-60);
+}
+
+.fs-124 {
+    font-size: var(--fs-124);
+}
+
+@media (max-width: 1200px) {
+    :root {
+        --fs-16: 14px;
+        --fs-20: 16px;
+        --fs-48: 40px;
+        --fs-60: 40px;
+        --fs-124: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    :root {
+        --fs-48: 30px;
+        --fs-60: 35px;
+        --fs-124: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --fs-48: 24px;
+    }
+}
+
+@media (max-width: 575px) {}
+
+@media (max-width: 420px) {}

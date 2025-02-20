@@ -1,0 +1,379 @@
+@font-face {
+    font-family: "Flink-Regular";
+    src: url(/assetes/flink-cufonfonts/FlinkRegular.otf);
+}
+
+@font-face {
+    font-family: "Flink-Medium";
+    src: url(/assetes/flink-cufonfonts/FlinkMedium.otf);
+}
+
+@font-face {
+    font-family: "Flink-Bold";
+    src: url(/assetes/flink-cufonfonts/FlinkExtraBold.otf);
+}
+
+.ff-flink-regular {
+    font-family: "Flink-Regular";
+}
+
+.ff-flink-medium {
+    font-family: "Flink-Medium";
+}
+
+.ff-flink-bold {
+    font-family: "Flink-Bold";
+}
+
+.self-contianer {
+    max-width: 1240px;
+    padding: 0px 50px 0px 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+/* margin */
+.mb--8 {
+    margin-bottom: -8px;
+}
+
+.m-lr-32 {
+    margin: 0px 32px 0px 32px;
+}
+
+.mt-14 {
+    margin-top: 14px !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.mt-36 {
+    margin-top: 36px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.mt-74 {
+    margin-top: 74px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-150 {
+    margin-top: 150px !important;
+}
+
+.mt-213 {
+    margin-top: 213px;
+}
+
+.mt--30 {
+    margin-top: -30px;
+}
+
+.mt--45 {
+    margin-top: -45px;
+}
+
+.mt-76 {
+    margin-top: 76px !important;
+}
+
+.ml--70 {
+    margin-left: -70px;
+}
+
+/* padddin */
+.p-10 {
+    padding: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-20-20-17-20 {
+    padding: 20px 20px 17px 20px;
+}
+
+.p-22 {
+    padding: 22px;
+}
+
+.p-16-52 {
+    padding: 16px 52px;
+}
+
+.p-2-20 {
+    padding: 2px 20px;
+}
+
+.p-145-0 {
+    padding: 145px 0;
+}
+
+.p-14-30-14-14 {
+    padding: 14px 30px 14px 14px;
+}
+
+.p-12-22 {
+    padding: 12px 21px;
+}
+
+.p-tb-124-138 {
+    padding: 124px 0px 138px 0px;
+}
+
+.p-tb-153 {
+    padding: 153px 0px;
+}
+
+.p-tb-83-32 {
+    padding: 83px 0px 32px 0px;
+}
+
+/* line height */
+.line-height-110 {
+    line-height: 110%;
+}
+
+.line-height-120 {
+    line-height: 120%;
+}
+
+.line-height-135 {
+    line-height: 135%;
+}
+
+.line-height-140 {
+    line-height: 140%;
+}
+
+.line-height-150 {
+    line-height: 150%;
+}
+
+/* border */
+.border-1gray {
+    border: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.border-1blue {
+    border: 1px solid #1F6FA9;
+}
+
+.border-top {
+    border-top: 0.5px solid #FFF;
+}
+
+/* max-width */
+.max-w-150 {
+    max-width: 150px;
+}
+
+.max-w-245 {
+    max-width: 245px;
+}
+
+.max-w-260 {
+    max-width: 260px;
+}
+
+.max-w-300 {
+    max-width: 300px;
+}
+
+.max-w-400 {
+    max-width: 400px;
+}
+
+.max-w-553 {
+    max-width: 553px;
+}
+
+.max-w-655 {
+    max-width: 655px;
+}
+
+.max-w-700 {
+    max-width: 700px;
+}
+
+.max-w-881 {
+    max-width: 881px;
+}
+
+/* min-width */
+.min-w-246 {
+    min-width: 246px;
+}
+
+/* height-width */
+.h-w-30 {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+/* gap */
+.g-6 {
+    gap: 6px;
+}
+
+.g-12 {
+    gap: 12px;
+}
+
+.g-22 {
+    gap: 22px;
+}
+
+.g-32 {
+    gap: 32px;
+}
+
+.g-68 {
+    gap: 68px;
+}
+
+/* position */
+.top-12 {
+    top: 12px;
+}
+
+.top--65 {
+    top: -65px;
+}
+
+.top--70 {
+    top: -70px;
+}
+
+.top--90 {
+    top: -90px;
+}
+
+.top--130 {
+    top: -130px;
+}
+
+.left-210 {
+    left: 210px;
+}
+
+.top--250 {
+    margin-top: -250px;
+}
+
+.top-300 {
+    top: 300px;
+}
+
+.left--170 {
+    left: -170px;
+}
+
+.right-70 {
+    right: -73px;
+}
+
+.left--90 {
+    left: -90px;
+}
+
+.left--220 {
+    left: -220px;
+}
+
+.right-60 {
+    right: 60px;
+}
+
+.right--280 {
+    right: -280px;
+}
+
+/* rotate */
+.rotate-90 {
+    rotate: 90deg;
+}
+
+.rotate-180 {
+    rotate: 180deg;
+}
+
+/* leter spacing */
+.letter-spacing-2 {
+    letter-spacing: 2px;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.16);
+}
+
+/* swiper */
+.swiper-slide-active {
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.12);
+}
+
+.swiper-slide-next,
+.swiper-slide-prev {
+    opacity: .5;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: "" !important;
+}
+
+/* hover */
+.transition {
+    transition: all .6s;
+}
+
+.text-gray-hvr:hover {
+    color: rgba(255, 255, 255, 0.278) !important;
+}
+
+.bg-transperent-hvr:hover {
+    background-color: transparent !important;
+    color: #fff;
+}
+
+.tranform-hvr:hover {
+    transform: scale(1.2);
+}
+
+.card-hvr:hover {
+    box-shadow: 0px 0px 20px 0px gray;
+}
+
+.card-hvr:hover .bg-white-hvr {
+    background-color: #fff;
+    color: #1F6FA9 !important;
+}
+
+.text-white-hvr:hover {
+    opacity: 100% !important;
+}
+
+.scle-hvr:hover {
+    transform: scale(1.1);
+}
+
+.bg-green-hvr:hover {
+    background-color: #7AC144 !important;
+}
+
+.bg-green-hvr:hover path {
+    stroke: #fff !important;
+}
