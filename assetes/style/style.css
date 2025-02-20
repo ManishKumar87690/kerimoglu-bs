@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Flink-Regular";
-    src: url(/assetes/flink-cufonfonts/FlinkRegular.otf);
+    src: url("./assetes/flink-cufonfonts/FlinkRegular.otf");
 }
 
 @font-face {
     font-family: "Flink-Medium";
-    src: url(/assetes/flink-cufonfonts/FlinkMedium.otf);
+    src: url("./assetes/flink-cufonfonts/FlinkMedium.otf");
 }
 
 @font-face {
     font-family: "Flink-Bold";
-    src: url(/assetes/flink-cufonfonts/FlinkExtraBold.otf);
+    src: url("./assetes/flink-cufonfonts/FlinkExtraBold.otf");
 }
 
 .ff-flink-regular {
